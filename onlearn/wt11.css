@@ -1,0 +1,39 @@
+body{
+    background-image: url(https://images.pexels.com/photos/7130555/pexels-photo-7130555.jpeg?cs=srgb&dl=pexels-codioful-7130555.jpg&fm=jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: black;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 5px;
+    }
+
+    .night-mode {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAgq_CoLW0M0WXW2EbpG6M34cCTBfKEvF1IvDt2O6ZgTJgWlRv8kC2glG_SiiRECK9doA&usqp=CAU);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: aliceblue;
+    transition: background-color 0.3s, color 0.3s;
+    }
+
+    .xyz{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 25px;
+    }
+
+    label{
+    text-align: left;
+    }
+
+    img{
+    width: 20%;
+    height: 20%;
+    }
+
+    
